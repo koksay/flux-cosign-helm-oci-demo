@@ -5,6 +5,7 @@ metadata:
   name: demo-charts
   namespace: flux-system
 spec:
-  interval: 10m0s
+  interval: 5m0s
   type: oci
   url: oci://178.62.227.10:30725
+  insecure: true
