@@ -1,0 +1,10 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: demo-charts
+  namespace: flux-system
+spec:
+  interval: 10m0s
+  type: oci
+  url: oci://178.62.227.10:30725
