@@ -20,4 +20,4 @@ spec:
   releaseName: cert-manager
   targetNamespace: cert-manager
   values:
-    installCRDs: true
+    installCRDs: false
